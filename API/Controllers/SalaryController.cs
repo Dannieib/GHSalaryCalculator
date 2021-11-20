@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace GHSalaryCalculator.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/salary")]
     public class SalaryController : ControllerBase
     {
 
@@ -21,7 +21,7 @@ namespace GHSalaryCalculator.API.Controllers
             _serviceHandler = serviceHandler;
         }
 
-        [HttpGet]
+        [HttpGet("process-salary")]
         [ProducesResponseType(typeof(ProcessGrossSalaryDto),200)]
         [ProducesResponseType(typeof(ProcessGrossSalaryDto),500)]
         public async Task<IActionResult> ProcessGrossSalary(string userName, decimal grossSalary)

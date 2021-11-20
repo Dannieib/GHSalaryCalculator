@@ -50,8 +50,8 @@ namespace GHSalaryCalculator.Service
                 netSalary = grossSalary - taxProcessor.CalculatedTax;
                 netSalary = grossSalary - pensionProcessor.DebitedPension;
 
-                //Basic Salary, Total PAYE Tax, Employee Pension Contribution Amount and Employer Pension amount
-                //I had added extra responses..
+                //Basic Salary, Total PAYEE Tax, Employee Pension Contribution Amount and Employer Pension amount.
+                //I had added extra responses.
                 return await Task.FromResult(new ProcessGrossSalaryDto
                 {
                     Message = "Success: Successfully processed.",
