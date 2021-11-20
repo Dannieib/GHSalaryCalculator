@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GHSalaryCalculator.API", "API\GHSalaryCalculator.API.csproj", "{63EB6E23-8346-42AE-B518-1FAB7294CC5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHSalaryCalculator.Core", "..\Core\GHSalaryCalculator.Core.csproj", "{EDD6CE02-5BFA-4DBB-BC10-4873812066E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHSalaryCalculator.Service", "..\GHSalaryCalculator.Service\GHSalaryCalculator.Service.csproj", "{7C5C3A27-7E9D-4EE2-AA35-8DB7795D4A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{3D3D2AF1-654E-4FDF-B654-AB9145AA39F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63EB6E23-8346-42AE-B518-1FAB7294CC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EB6E23-8346-42AE-B518-1FAB7294CC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63EB6E23-8346-42AE-B518-1FAB7294CC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63EB6E23-8346-42AE-B518-1FAB7294CC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD6CE02-5BFA-4DBB-BC10-4873812066E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD6CE02-5BFA-4DBB-BC10-4873812066E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD6CE02-5BFA-4DBB-BC10-4873812066E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD6CE02-5BFA-4DBB-BC10-4873812066E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5C3A27-7E9D-4EE2-AA35-8DB7795D4A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5C3A27-7E9D-4EE2-AA35-8DB7795D4A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5C3A27-7E9D-4EE2-AA35-8DB7795D4A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5C3A27-7E9D-4EE2-AA35-8DB7795D4A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3D2AF1-654E-4FDF-B654-AB9145AA39F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3D2AF1-654E-4FDF-B654-AB9145AA39F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3D2AF1-654E-4FDF-B654-AB9145AA39F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3D2AF1-654E-4FDF-B654-AB9145AA39F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C49E5BB-FC91-4428-8BEC-903E2D3AFDD7}
+	EndGlobalSection
+EndGlobal
